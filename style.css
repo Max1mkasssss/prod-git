@@ -237,4 +237,46 @@ h1{
     opacity: 1;
     transform: translateY(0);
 }
+
+
 /* ---------  */
+
+/* ======Block-3======  */
+
+.Design-Professionals{ 
+    margin-top: 210px;
+}
+.text-block-3{ 
+    width: 486px;
+}
+.up-h2-block-3{ 
+    color: #544837;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 3px;
+}
+.text-block-3 h2{ 
+    color: #2F281E;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 22px;
+}
+.down-h2-block-3{ 
+    color: #544837;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; 
+    margin-bottom: 30px;
+}
+.list-block-3{ 
+    gap: 25px;
+    flex-direction: column;
+}
