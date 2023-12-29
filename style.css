@@ -225,6 +225,16 @@ h1{
 .button-hover:not(:hover){ 
     transition: 0.7s;
 }
+.background{ 
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+        z-index: -1;
+        background: url('/images/background.svg') no-repeat center bottom fixed;
+        background-size: cover;
+}
 
  /* For animation  */
 /* .animation{
@@ -329,4 +339,59 @@ h1{
     height: 35px;
     border: none;
 }
-
+/* ---- Block 5 ----  */
+.Block-5-text{ 
+    width: 486px;
+    margin-right: 80px;
+}
+.Block-5 img{ 
+    margin-top: 170px;
+}
+.Block-5-text{ 
+    margin-top: 145px;
+}
+.up-h2-block-5{
+    color: #544837;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.Block-5-text h2{ 
+    color: #2F281E;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.down-h2-block-5{
+    color: #544837;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+    margin-bottom: 30px;
+}
+.list-block-5{ 
+    gap: 25px;
+    flex-direction: column;
+}
+.list-block-5-items h4{
+    color: #2F281E;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 162.5% */
+}
+.list-block-5-items p{ 
+    color: #544837;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+}
